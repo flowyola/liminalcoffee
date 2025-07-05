@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liminal Coffee & Bites</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0b/d9/3c/new-favourite-place-to.jpg?w=1000&h=-1&s=1') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+    header a {
+      padding: 0.8rem 1.5rem;
+      background-color: #d2691e;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    header a:hover {
+      background-color: #a0522d;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #5c3a1e;
+    }
+
+    .menu-items, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .menu-items div, .gallery img {
+      flex: 1 1 200px;
+      background: #f5f5f5;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Liminal Coffee & Bites</h1>
+    <p>Temukan kenyamanan dan cita rasa kopi terbaik</p>
+    <a href="#menu">Lihat Menu</a>
+  </header>
+
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <p style="text-align: center;">
+      Liminal Coffee & Bites adalah tempat di mana momen, rasa, dan koneksi berpadu. Kami menyajikan kopi spesialti, makanan ringan lezat, dan suasana hangat yang mengundang Anda untuk singgah lebih lama.
+    </p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu Unggulan</h2>
+    <div class="menu-items">
+      <div><strong>Espresso</strong><br/>Kopi pekat dan nikmat</div>
+      <div><strong>Caramel Latte</strong><br/>Manis dan lembut</div>
+      <div><strong>Matcha Latte</strong><br/>Segar dengan rasa khas</div>
+      <div><strong>Croissant</strong><br/>Fresh dari oven setiap pagi</div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeri</h2>
+    <div class="gallery">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkAFO5FFu1YLcTsIaVdhX9IIXRylhMal2JwQ&s" alt="Coffee 1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT918ejdvZKwnV1a8s9MdKPc-ZzUj8de0OQhkeZtR8kaasTdA3IVj6gKrjPOSEMlHJ2eV0&usqp=CAU" alt="Cafe Interior">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGiU95FSBXZM7MNKBs95BlsJ6xa2_pbm2mw&s" alt="Pastry">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2></h2>
+
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="#" target="_blank" style="background-color:#d2691e; padding: 0.7rem 1.2rem; color:white; text-decoration:none; border-radius:5px;">Lihat di Google Maps</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Liminal Coffee & Bites. All rights reserved. <a href="https://vpsekspor.com/">vpsekspor</a> </p>
+  </footer>
+  <div style="display: none;">
+    <a href="https://jagoankita.my.id">jagoankita</a>
+</div>
+ 
+
+</body>
+</html>
